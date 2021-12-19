@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/download.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inp_form {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(34, 30, 53);
+    padding: 100px 60px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 20px rgb(34, 30, 53);
+}
+
+.UserName {
+    background: none;
+    border: none;
+    outline: none;
+    width: 250px;
+    border-bottom: 2px solid black;
+    font-size: 25px;
+    padding: 5px;
+    color: wheat;
+}
+
+.UserPass {
+    background: none;
+    border: none;
+    outline: none;
+    width: 250px;
+    border-bottom: 2px solid black;
+    font-size: 25px;
+    padding: 5px;
+    color: wheat;
+}
+
+.far {
+    position: absolute;
+    right: 70px;
+    top: 175px;
+}
+
+.UserBtn {
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: wheat;
+    border: none;
+    cursor: pointer;
+}
+
+.toggle {
+    display: none;
+}
